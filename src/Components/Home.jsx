@@ -7,7 +7,7 @@ const Home = ({toogle}) => {
         <div className=' flex  h-[80%] w-[80%] border border-black text-black '>
             {/* left */}
             <div className=' w-[50%]'>
-                <img className=' h-fit w-fit' src="./Dicess.png" alt="" />
+                <img className=' h-fit w-fit' src="../Images/Dicess/Dicess.png" alt="" />
             </div>
             {/* right */}
             <div className=' w-[50%] flex flex-col gap-9 justify-center items-center'>
