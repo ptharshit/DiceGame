@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className='bg-soft-radial'>
-    {isGameStarted ? <GamePlay/> : <Home toogle = {toogle}/>}
+    {isGameStarted ? <GamePlay/> : <Home toggle = {toogle}/>}
       
     </div>
   )
