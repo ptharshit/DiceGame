@@ -10,7 +10,7 @@ const Home = ({ toggle }) => {
         </div>
         {/* right */}
         <div className="w-full lg:w-[50%] flex flex-col gap-6 justify-center items-center p-4">
-          <h1 className="text-4xl md:text-6xl lg:text-8xl font-extrabold text-center">Dice Game</h1>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-center">Dice Game</h1>
           <button
             onClick={toggle}
             className="border-2 border-black text-white bg-black p-3 rounded-md hover:bg-white hover:text-black transition-colors duration-300"
